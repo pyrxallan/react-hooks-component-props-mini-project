@@ -1,9 +1,9 @@
 import React from "react";
 
-function Header() {
+function Header({name}) {
   return (
     <header>
-        <h1>Overreacted</h1>
+        <h1>{name}</h1>
     </header>
   );
 }
